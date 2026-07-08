@@ -1,0 +1,1 @@
+# yolouno_extension_ai_vision_camera
