@@ -1,0 +1,12 @@
+{
+  "name": "AI VISION CAMERA",
+  "description": "Thư viện AI Vision Camera cho Yolo UNO",
+  "libs": ["ai_vision_camera.py"],
+  "blocks": ["definition.js"],
+  "toolbox": "toolbox.xml",
+  "languages": {
+    "en": "en.js",
+    "vi": "vi.js"
+  },
+  "poster": "poster.png"
+}

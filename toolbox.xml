@@ -1,0 +1,24 @@
+<xml xmlns="https://developers.google.com/blockly/xml" id="toolbox" style="display: none">
+  <category id="camera_ai_robot" name="AI VISION CAMERA" colour="#9C27B0" icon="camera">
+
+    <label text="{{AICAMERA_GRP_CONNECT}}" web-class="blockLabelStyle"></label>
+    <block type="camera_ai_init"/>
+
+    <label text="{{AICAMERA_GRP_FACE}}" web-class="blockLabelStyle"></label>
+    <block type="camera_ai_face_known"/>
+    <block type="camera_ai_face_unknown"/>
+
+    <label text="{{AICAMERA_GRP_COLOR}}" web-class="blockLabelStyle"></label>
+    <block type="camera_ai_color_name"/>
+    <block type="camera_ai_is_color"/>
+
+    <label text="{{AICAMERA_GRP_STREAM}}" web-class="blockLabelStyle"></label>
+    <block type="camera_ai_class"/>
+    <block type="camera_ai_class_conf"/>
+    <block type="camera_ai_is_class"/>
+
+    <label text="{{AICAMERA_GRP_QR}}" web-class="blockLabelStyle"></label>
+    <block type="camera_ai_qr"/>
+
+  </category>
+</xml>
