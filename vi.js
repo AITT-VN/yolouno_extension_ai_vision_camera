@@ -11,6 +11,7 @@ Blockly.Msg.AICAMERA_GRP_QR = "Mã QR";
 // ==== BLOCKS ====
 Blockly.Msg.AICAMERA_INIT = "%1 khởi tạo ai vision camera chân RX %2 TX %3";
 Blockly.Msg.AICAMERA_FACE_KNOWN = "%1 phát hiện khuôn mặt đã lưu ID %2";
+Blockly.Msg.AICAMERA_FACE_ANY = "bất kỳ";
 Blockly.Msg.AICAMERA_FACE_UNKNOWN = "%1 phát hiện khuôn mặt lạ (chưa lưu)";
 Blockly.Msg.AICAMERA_COLOR_NAME = "%1 màu sắc nhận dạng được là";
 Blockly.Msg.AICAMERA_IS_COLOR = "%1 phát hiện ra màu %2";
@@ -21,7 +22,7 @@ Blockly.Msg.AICAMERA_QR = "%1 mã QR đọc được";
 
 // ==== TOOLTIPS ====
 Blockly.Msg.AICAMERA_INIT_TOOLTIP = "Khởi tạo kết nối Camera AI qua UART trên Yolo UNO. Chọn chân RX và TX (cùng cổng nối camera). Tốc độ cố định 115200 khớp với camera.";
-Blockly.Msg.AICAMERA_FACE_KNOWN_TOOLTIP = "Đúng (True) khi camera nhận ra một người đã lưu (ID ≥ 1).";
+Blockly.Msg.AICAMERA_FACE_KNOWN_TOOLTIP = "Đúng (True) khi camera nhận ra người đã lưu. Chọn ID cụ thể (1–5) để chỉ khớp đúng người đó, hoặc 'bất kỳ' để khớp mọi khuôn mặt đã lưu.";
 Blockly.Msg.AICAMERA_FACE_UNKNOWN_TOOLTIP = "Đúng (True) khi camera thấy một khuôn mặt nhưng chưa được lưu (ID = 0).";
 Blockly.Msg.AICAMERA_COLOR_NAME_TOOLTIP = "Trả về tên màu ở tâm khung (chuỗi: RED, ORANGE, YELLOW, GREEN, CYAN, BLUE, PURPLE, PINK, BROWN, WHITE, GRAY, BLACK).";
 Blockly.Msg.AICAMERA_IS_COLOR_TOOLTIP = "Đúng (True) khi màu ở tâm khung đúng bằng màu đã chọn.";

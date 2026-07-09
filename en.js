@@ -11,6 +11,7 @@ Blockly.Msg.AICAMERA_GRP_QR = "QR code";
 // ==== BLOCKS ====
 Blockly.Msg.AICAMERA_INIT = "%1 init AI camera RX %2 TX %3";
 Blockly.Msg.AICAMERA_FACE_KNOWN = "%1 detected known face ID %2";
+Blockly.Msg.AICAMERA_FACE_ANY = "any";
 Blockly.Msg.AICAMERA_FACE_UNKNOWN = "%1 detected an unknown face";
 Blockly.Msg.AICAMERA_COLOR_NAME = "%1 recognized color is";
 Blockly.Msg.AICAMERA_IS_COLOR = "%1 detected color %2";
@@ -21,7 +22,7 @@ Blockly.Msg.AICAMERA_QR = "%1 QR code value";
 
 // ==== TOOLTIPS ====
 Blockly.Msg.AICAMERA_INIT_TOOLTIP = "Initialize AI Camera connection via UART on Yolo UNO. Select RX and TX pins. Fixed baud rate 115200.";
-Blockly.Msg.AICAMERA_FACE_KNOWN_TOOLTIP = "True when camera recognizes a saved person (ID ≥ 1).";
+Blockly.Msg.AICAMERA_FACE_KNOWN_TOOLTIP = "True when camera recognizes a saved person. Pick a specific ID (1-5) to match only that person, or 'any' to match any saved face.";
 Blockly.Msg.AICAMERA_FACE_UNKNOWN_TOOLTIP = "True when camera sees a face that has not been saved (ID = 0).";
 Blockly.Msg.AICAMERA_COLOR_NAME_TOOLTIP = "Returns the color name at frame center (string: RED, ORANGE, YELLOW, GREEN, CYAN, BLUE, PURPLE, PINK, BROWN, WHITE, GRAY, BLACK).";
 Blockly.Msg.AICAMERA_IS_COLOR_TOOLTIP = "True when the color at frame center matches the selected color.";

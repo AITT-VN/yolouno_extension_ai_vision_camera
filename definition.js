@@ -67,7 +67,7 @@ Blockly.Blocks['camera_ai_face_known'] = {
         camIcon("face"),
         {
           type: "field_dropdown", name: "FACE_ID",
-          options: [ ["1","1"], ["2","2"], ["3","3"], ["4","4"], ["5","5"] ]
+          options: [ [Blockly.Msg.AICAMERA_FACE_ANY,"0"], ["1","1"], ["2","2"], ["3","3"], ["4","4"], ["5","5"] ]
         }
       ],
       output: null, colour: CameraAI_Color,
